@@ -1,0 +1,265 @@
+:root{
+--color-aqua:#00d9d9;
+--color-titulos:#000;
+--color-contenido: #2d2d2d;
+--bg-header:#000;
+--bg-footer:#222222;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Montserrat";
+}
+p{
+	font-family: "Raleway";
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body{
+color:var(--color-contenido);
+ font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+   
+}
+
+header{
+	background-color: var(--bg-header);
+	padding: 20px 0;
+}
+
+
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    margin: 10px;
+    border: solid thin;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.btn-primary {
+	font-family: "Montserrat";
+    background-color: #00d9d9;
+    color: white;
+	border-color: #00d9d9;
+}
+
+.btn-secondary {
+	font-family: "Montserrat";
+    background-color: transparent;
+	
+}
+
+
+
+.services {
+	
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+
+
+  .icon-circle {
+    background-color: #00d9d9;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 24px;
+}
+
+.icon-circle2 {
+    background-color: #2d2d2d;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 24px;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+.about-image {
+    flex: 1;
+    position: relative;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.about-image::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    background: #00d9d9;
+    z-index: 1;
+}
+
+.about-content {
+    flex: 1;
+    padding-left: 50px;
+}
+
+.about-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.about-content p {
+    color: #2d2d2d;
+}
+
+
+
+
+
+.doctors {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.doctor {
+ 
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.doctor img {
+    width: 100%;
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+footer{
+	background-color: var(--bg-footer);
+	color: #888;
+	padding: 30px 0;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+footer p span{
+	color: var(--color-aqua);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+.slides-texto h2{
+    font-family: "Montserrat";
+    text-align: left;
+    font-size: 75px;
+    padding-right: 150px;
+    margin-left: -100px;
+    text-transform: uppercase;
+}
+
+
+.slides-texto p{
+    font-family: "Raleway";
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 250px;
+    padding-right: 150px;
+    margin-left: -100px;
+
+}
+.btns{
+    font-family: "Montserrat";
+    align-content: left;
+    padding-right: 150px;
+    margin-left: -540px;
+    margin-top: -200px;
+    padding-bottom: 200px;
+    justify-content: space-between;
+    letter-spacing: 2.5px;
+}
+.btn-primary{
+background: #00d9d9;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: -20px;
+}
+
+#testimonials {
+    background-color: var(--background-color);
+    padding: 2em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.testimonial {
+    margin: auto;
+    max-width: 600px;
+}
+
+.testimonial p {
+    color: var(--text-color);
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+.quote-icon {
+    font-size: 2.5em;
+    color: var(--accent-color);
+    margin: 10px 0;
+}
+
+.rating {
+    color: var(--rating-color);
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
